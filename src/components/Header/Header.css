@@ -1,4 +1,12 @@
 .header{
     padding: 40px;
-    background-color: #ffc7c7;
+    background-color: #ffe2e2;
+}
+a{
+    margin: 1rem;
+    color:#aaaaaa;
+}
+a:hover{
+    color:#7a7979;
+    text-decoration: underline #7a7979;
 }
