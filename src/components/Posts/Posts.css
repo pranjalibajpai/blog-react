@@ -1,6 +1,24 @@
 .posts{
-    text-align: center;
+    text-align: left;
+    margin: 2rem;
+    font-weight: 500;
+    padding: 1rem;
 }
 .post-item{
-    margin: 2rem; 
+    margin: 2rem 2rem;
+    padding: 1rem;
+    /* border-bottom: 0.5rem solid #f7eeee; */
+}
+.post-item h2{
+    color: #888585;
+}
+.post-item:hover{
+    box-shadow: 1px 1px 10px 1px #ebd0d0;
+}
+button{
+    margin: 0.5rem;
+}
+.date{
+    font-style:oblique;
+    color: #888585;
 }
