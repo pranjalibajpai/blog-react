@@ -10,3 +10,6 @@ a:hover{
     color:#ada2a2;
     text-decoration: underline #7a7979;
 }
+.active{
+    text-decoration: underline;
+}

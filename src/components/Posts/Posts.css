@@ -10,13 +10,14 @@
     /* border-bottom: 0.5rem solid #f7eeee; */
 }
 .post-item h2{
-    color: #888585;
+    color: #eeb5b5;
 }
 .post-item:hover{
     box-shadow: 1px 1px 10px 1px #ebd0d0;
 }
 button{
     margin: 0.5rem;
+    color: black;
 }
 .date{
     font-style:oblique;

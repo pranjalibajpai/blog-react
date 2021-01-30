@@ -6,7 +6,7 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink as NavLinkReact, Jumbotron
+  NavLink as NavLinkReact
 } from 'reactstrap';
 import './Header.css';
 import {AiOutlineBars} from 'react-icons/ai';
@@ -22,7 +22,10 @@ const Header = () => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink to="/" activeClassName="active" tag={NavLinkReact}>Create New Post</NavLink>
+              <NavLink to="/posts" activeClassName="active" >All Posts</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to="/create" activeClassName="active" tag={NavLinkReact}>New Post</NavLink>
             </NavItem>
             <NavItem>
               <NavLink to="/about" activeClassName="active" tag={NavLinkReact}>About</NavLink>
