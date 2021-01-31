@@ -1,3 +1,44 @@
 {
-  "blogs": []
+  "blogs": [
+    {
+      "title": "React Router",
+      "content": "This post consists of my learnings in React Router & relevant resources.",
+      "date": "31/01/2021",
+      "likes": 0,
+      "author": "Pranjali",
+      "id": 1
+    },
+    {
+      "title": "React Hooks",
+      "content": "It contains details of all 13 React Hooks and their use cases. Also, I'll be sharing resources from where I learnt these!",
+      "date": "31/01/2021",
+      "likes": 0,
+      "author": "Pranjali",
+      "id": 2
+    },
+    {
+      "title": "How I build this Blog!",
+      "content": "So, this is an exciting one! I will share a step by step guide on how to build a simple personal blog like this in React. This web app currently has json-server and has functionality to create new post and delete a post, view individual posts etc. Certian modifications that are to be done are: liking a post, adding mongodb database, autheticating create & delete route(protected route), adding REST API instead of JSON server. ",
+      "date": "31/01/2021",
+      "likes": 0,
+      "author": "Pranjali",
+      "id": 3
+    },
+    {
+      "title": "Build Personal Portfolio in React",
+      "content": "So, this will be a beginner friendly guide on how to build a personal portfolio like https://pranjalibajpai.netlify.app in React and also adding Dark/Light mode toggle button. ",
+      "date": "31/01/2021",
+      "likes": 0,
+      "author": "Pranjali",
+      "id": 4
+    },
+    {
+      "title": "Intro to Redux ",
+      "content": "This will be first step towards learning Redux. I will briefly introduce the flux architecture, and also certain terms associated with it like actions, reducers, dispatch etc. After reading this post, one will be ready to apply redux in react web application. Since redux is useful for large scale applications, we'll be learning it by building a small cake shop app. Hope it will help you!",
+      "date": "31/01/2021",
+      "likes": 0,
+      "author": "Pranjali",
+      "id": 5
+    }
+  ]
 }
