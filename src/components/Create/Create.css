@@ -1,0 +1,5 @@
+
+input[type=text]:focus:not([readonly]), textarea:focus:not([readonly]){
+    border: 2px solid #aaaaaa;
+    box-shadow: 1px 1px 1px 0 #aaaaaa;
+}
