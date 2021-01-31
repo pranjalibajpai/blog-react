@@ -39,8 +39,10 @@ const Create = () => {
             body: JSON.stringify(newPost)
         }).then((res) => {
             if(res.ok)
-            setData({...data, error: null, success: 'Post Added Successfully'})
-        else setData({...data, error: 'Could not add data to the resource!', success: null})} )
+                setData({...data, error: null, success: 'Post Added Successfully'})
+            else 
+                setData({...data, error: 'Could not add data to the resource!', success: null})
+            })
            .catch(err => setData({...data, error: err.message, success: null}));
         }
     }
